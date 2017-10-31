@@ -2,7 +2,7 @@ package BinaryTree;
 
 public class DriverBinaryTree {
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        BinaryTreeClass bt = new BinaryTreeClass();
         bt.insert(1);
         bt.insert(2);
         bt.insert(3);
@@ -16,7 +16,7 @@ public class DriverBinaryTree {
         System.out.println("inOrder");
         bt.inorder();
         System.out.println("");
-        BinaryTree ba = new BinaryTree();
+        BinaryTreeClass ba = new BinaryTreeClass();
         //ClonetoPostOrder
         System.out.println("ClonetoPostOrder");
         ba.cloneToPostOrder(bt);
